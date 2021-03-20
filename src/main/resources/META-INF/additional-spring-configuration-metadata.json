@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "keycloak.server.context-path",
+    "type": "java.lang.String",
+    "description": "A description for 'keycloak.server.context-path'"
+  },
+  {
+    "name": "keycloak.server.adminUser.username",
+    "type": "java.lang.String",
+    "description": "A description for 'keycloak.server.adminUser.username'"
+  },
+  {
+    "name": "keycloak.server.adminUser.password",
+    "type": "java.lang.String",
+    "description": "A description for 'keycloak.server.adminUser.password'"
+  },
+  {
+    "name": "keycloak.server.realmImportFile",
+    "type": "java.lang.String",
+    "description": "A description for 'keycloak.server.realmImportFile'"
+  },
+  {
+    "name": "-Dserver.port",
+    "type": "java.lang.String",
+    "description": "A description for '-Dserver.port'"
+  }
+]}
