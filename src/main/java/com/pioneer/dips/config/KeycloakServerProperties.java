@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class KeycloakServerProperties {
 
     String contextPath = "/auth";
-    String realmImportFile = "baeldung-realm.json";
+    String realmImportFile = "dips-realm.json";
     AdminUser adminUser = new AdminUser();
 
     public AdminUser getAdminUser() {

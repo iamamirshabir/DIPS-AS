@@ -17,6 +17,7 @@ import org.springframework.core.io.Resource;
 
 import com.pioneer.dips.config.KeycloakServerProperties.AdminUser;
 
+
 public class EmbeddedKeycloakApplication extends KeycloakApplication {
 
 	private static final Logger LOG = LoggerFactory.getLogger(EmbeddedKeycloakApplication.class);

@@ -4,12 +4,13 @@ server:
 spring:
   datasource:
     username: sa
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:mem:masterdb
 
 keycloak:
   server:
     contextPath: /auth
     adminUser:
       username: aamir
-      password: pass
-    realmImportFile: baeldung-realm.json
+      password: deadman
+    realmImportFile: dips-realm.json
+  
