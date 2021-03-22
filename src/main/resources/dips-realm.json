@@ -1,5 +1,5 @@
 {
-  "id": "baeldung",
+  "id": "dips",
   "realm": "DIPS",
   "displayName": "DIPS",
   "displayNameHtml": "<div class=\"kc-logo-text\"><span>Diagnosis Intuition and Prescription</span></div>",
@@ -50,7 +50,7 @@
         "description": "${role_offline-access}",
         "composite": false,
         "clientRole": false,
-        "containerId": "baeldung",
+        "containerId": "dips",
         "attributes": {}
       },
       {
@@ -59,7 +59,7 @@
         "description": "${role_uma_authorization}",
         "composite": false,
         "clientRole": false,
-        "containerId": "baeldung",
+        "containerId": "dips",
         "attributes": {}
       },
       {
@@ -67,7 +67,7 @@
         "name": "user",
         "composite": false,
         "clientRole": false,
-        "containerId": "baeldung",
+        "containerId": "dips",
         "attributes": {}
       }
     ],
@@ -495,14 +495,14 @@
       "clientId": "account-console",
       "name": "${client_account-console}",
       "rootUrl": "${authBaseUrl}",
-      "baseUrl": "/realms/baeldung/account/",
+      "baseUrl": "/realms/dips/account/",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "secret": "**********",
       "redirectUris": [
-        "/realms/baeldung/account/*"
+        "/realms/dips/account/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
