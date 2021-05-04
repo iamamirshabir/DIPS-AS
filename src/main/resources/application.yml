@@ -3,9 +3,10 @@ server:
 
 spring:
   datasource:
-    username: sa
-    url: jdbc:h2:file:./data/dipsa
-
+    username: gvorzhknlkvdsz
+    url: jdbc:postgresql://ec2-34-252-251-16.eu-west-1.compute.amazonaws.com:5432/ddk9ao92sa3ljg?username=gvorzhknlkvdsz&password=76e938ab78c91e4e0508889f0240fd326cec602ced96ea42dd4e36be31f2b4ab&sslmode=require    
+    password: 76e938ab78c91e4e0508889f0240fd326cec602ced96ea42dd4e36be31f2b4ab
+    driverClassName: org.postgresql.Driver
 
 keycloak:
   server:
