@@ -475,7 +475,7 @@
   "users" : [ {
     "id" : "a5461470-33eb-4b2d-82d4-b0484e96ad7f",
     "createdTimestamp" : 1574174706812,
-    "username" : "john@test.com",
+    "username" : "aamir@gmail.com",
     "enabled" : true,
     "totp" : false,
     "emailVerified" : false,
@@ -497,7 +497,7 @@
   }, {
     "id" : "22a4d9fe-194c-4c6e-841a-8a55b402459f",
     "createdTimestamp" : 1580237252522,
-    "username" : "mike@other.com",
+    "username" : "temp@gmail.com",
     "enabled" : true,
     "totp" : false,
     "emailVerified" : false,
