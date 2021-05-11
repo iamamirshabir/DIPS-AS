@@ -1,6 +1,7 @@
 server:
   port: 8083
 
+
 spring:
   datasource:
     username: gvorzhknlkvdsz
@@ -8,11 +9,13 @@ spring:
     password: 76e938ab78c91e4e0508889f0240fd326cec602ced96ea42dd4e36be31f2b4ab
     driverClassName: org.postgresql.Driver
 
+  
 keycloak:
   server:
     contextPath: /auth
     adminUser:
       username: aamir
       password: deadman
-    realmImportFile: dips-realm.json
-  
+    realmImportFile: dips-realm.json   
+   
+    
