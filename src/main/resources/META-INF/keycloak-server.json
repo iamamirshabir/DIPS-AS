@@ -96,11 +96,11 @@
 	},
 	"connectionsJpa": {
 		"default": {
-			"url": "${keycloak.connectionsJpa.url:jdbc:h2:./target/keycloak}",
-			"driver": "${keycloak.connectionsJpa.driver:org.h2.Driver}",
+			"url": "${keycloak.connectionsJpa.url:jdbc:postgresql://ec2-34-252-251-16.eu-west-1.compute.amazonaws.com:5432/ddk9ao92sa3ljg?username=gvorzhknlkvdsz&password=76e938ab78c91e4e0508889f0240fd326cec602ced96ea42dd4e36be31f2b4ab&sslmode=require}",
+			"driver": "${keycloak.connectionsJpa.driver:org.postgresql.Driver}",
 			"driverDialect": "${keycloak.connectionsJpa.driverDialect:}",
-			"user": "${keycloak.connectionsJpa.user:sa}",
-			"password": "${keycloak.connectionsJpa.password:}",
+			"user": "${keycloak.connectionsJpa.user:gvorzhknlkvdsz}",
+			"password": "${keycloak.connectionsJpa.password:76e938ab78c91e4e0508889f0240fd326cec602ced96ea42dd4e36be31f2b4ab}",
 			"initializeEmpty": true,
 			"migrationStrategy": "update",
 			"showSql": "${keycloak.connectionsJpa.showSql:false}",
