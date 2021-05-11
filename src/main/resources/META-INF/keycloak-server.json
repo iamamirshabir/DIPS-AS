@@ -101,8 +101,8 @@
 			"driverDialect": "${keycloak.connectionsJpa.driverDialect:}",
 			"user": "${keycloak.connectionsJpa.user:gvorzhknlkvdsz}",
 			"password": "${keycloak.connectionsJpa.password:76e938ab78c91e4e0508889f0240fd326cec602ced96ea42dd4e36be31f2b4ab}",
-			"initializeEmpty": true,
-			"migrationStrategy": "update",
+			"initializeEmpty": false,
+			"migrationStrategy": "manual",
 			"showSql": "${keycloak.connectionsJpa.showSql:false}",
 			"formatSql": "${keycloak.connectionsJpa.formatSql:true}",
 			"globalStatsInterval": "${keycloak.connectionsJpa.globalStatsInterval:-1}"
